@@ -1,0 +1,1090 @@
+a{
+    text-decoration: none;
+}
+.header{
+            height: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 5;
+            width: 100%;
+        }
+        .top{
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 40px; 
+        }
+        .menutop ul{
+            margin-top: 0;
+            text-align: center;
+            background-color: rgba(12, 23, 31, 0.966);
+        }
+        .menutop ul li{
+            width: auto;
+            display: inline-table;
+            height: 40px;
+            line-height: 40px;
+            margin: 0 30px; 
+        }
+        .menutop ul li a{
+            display: block;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            padding: 0 10px;
+        }
+        .menutop ul li a:hover{
+            background-color: rgba(47, 76, 97, 0.966);
+        }
+        .button-taikhoan{
+           height:20px;
+           cursor: pointer;
+           float: right; 
+           text-decoration: none;
+           padding: 3px; 
+           margin: 5px; 
+           margin-right:10px;
+           border-radius: 10px;
+           border: 1px solid; 
+           color: rgb(0, 0, 0);
+        }
+        .button-logout{
+            cursor: pointer;
+            display:none;
+            height:20px;float: right;
+            color: rgb(0, 0, 0); 
+            text-decoration: none;
+            border: 1px solid; padding: 3px; 
+            margin: 5px; 
+            margin-right:2px;
+            border-radius: 5px;
+        }
+        .button-quanly{
+            display:none;
+            height:20px;
+            float: right;
+            color: rgb(0, 0, 0); 
+            text-decoration: none;
+            border: 1px solid;
+            padding: 3px; 
+            margin: 5px;
+            border-radius: 5px;
+        }
+        .button-lichsu{
+            cursor: pointer;
+            display:none;
+            height:20px;
+            float: left;
+            color: rgb(0, 0, 0); 
+            text-decoration: none;
+            border: 1px solid; 
+            padding: 3px; 
+            margin: 5px 0 0 1420px;
+            border-radius: 5px;
+        }
+        .name-user{
+            display:none;
+            cursor: pointer;
+            height:20px;
+            float: right;
+            color: rgb(0, 0, 0); 
+            text-decoration: none;
+            border: 1px solid; 
+            border-radius: 5px;
+            padding: 3px; 
+            margin: 5px; 
+            margin-right:2px;
+        }
+        input[type=nhap]{
+            width: 300px;
+            border-radius: 5px;
+            height: 30px; 
+            line-height: 30px;
+        }
+        .content{
+            margin: 10px 200px 10px;
+        }
+        .content #boLoc{
+            width:100% ;
+            background-color: white;
+            margin-top: 30px;
+            display: none;
+        }
+        #locGia{
+            margin-top: 0;
+            height: 30px;
+            line-height: 30px;
+            background-color: white;
+            display: none;
+        }
+        #locGia a{
+            color: rgb(0, 0, 0);
+            margin: 20px;
+        }
+        #hangSP{
+            background: rgba(47, 76, 97, 0.966) ;
+            line-height: 1.5;
+            display: inline-table;
+            text-align: center;
+            color: white;
+            padding: 8px;
+            margin: 5px 2.5px;
+        }
+        #hangSP a{
+            color: white;
+        }
+        #hangSP:hover{
+            text-decoration: underline;
+        }
+        #main{
+            margin-top: 30px;
+        }
+        #trang{
+        height: 40px;
+        text-align: center;
+        margin: 15px;
+        }
+        #phantrangsearch{
+            height: 40px;
+            text-align: center;
+            display: none;
+        }
+        #phantrangsearchnangcao{
+            height: 40px;
+            text-align: center;
+            display: none;
+        }
+        #sotrang{
+            display: block;
+            height: 36px;
+            width: 36px;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(255, 255, 255);
+            margin: 5px;
+            line-height: 35px;
+            display: inline-table;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #sotrang a{
+            text-decoration: none;
+            display: block;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        #sotrang:hover:not(.active){
+            background-color: rgba(47, 76, 97, 0.966);
+        }
+        #trang .active a{
+            background-color: rgba(47, 76, 97, 0.966);
+            color: white;
+        }
+        #phantrangsearch .active{
+            background-color: rgba(47, 76, 97, 0.966);
+            color: white;
+        }
+        #phantrangsearchnangcao .active{
+            background-color: rgba(47, 76, 97, 0.966);
+            color: white;
+        }
+        .divsanpham{
+            width:20%;
+            height:300px;
+            border:#eee solid 1px;
+            float:left;
+            padding-left: 10px;
+            margin-bottom:10px;
+            margin-left: 52px;
+            margin-top: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	    }
+        .divsanpham p{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .divsanpham a{
+            text-decoration: none;
+            color: black;
+        }
+        #sanpham{
+            width: 100%;
+            height: 650px;
+            background-color: white;
+            margin-top: 10px;
+            box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+        }
+        .divsanpham :hover{
+            color: blue;
+        }
+        .divsanpham a img{
+            height: 180px; width: 180px; margin: 15px auto;
+            margin-left: 20px;
+            transition: 0.3s;
+        }
+        .divsanpham a h4{
+            font-weight: normal;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            
+        }
+        .divsanpham a img:hover{
+            margin: 10px 0 20px 20px;
+        }
+        #nenCT{
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0,0.7);
+            position: fixed;
+            top:0;
+            left: 0;
+            z-index: 15;
+            display: none;
+        }
+        #chitietSP{
+            width: 56%;
+            height: 550px;
+            animation: topdown 1s;
+            background-color: white;
+            position: fixed;
+            top: 70px;
+            left: 320px;   
+        }
+        #chitietSP #ctleft{
+            width: 45%;
+            height: 100%;
+            float: left;
+        }
+        #chitietSP #ctleft img{
+            width: 100%;
+        }
+        #chitietSP #ctright{
+            margin: 10px;
+            float: right;
+            width: 50%;
+            height: 100%;
+        }
+        #head{
+            position: relative;
+        }
+        #btnGH{
+            background: rgba(12, 23, 31, 0.966);            
+            color: white;
+            font-size: 15px;
+            height: 70px;
+            width: 300px;
+            display: block;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        #btnGH:hover{
+            color: rgb(0, 0, 0);
+            background: rgba(47, 76, 97, 0.966);
+        } 
+        .daux{
+            position:absolute; 
+            font-size:16px; 
+            top:10px; 
+            right:30px;
+            width:30px;
+            height:30px;
+            cursor: pointer;
+            line-height:30px;
+            text-align:center;
+        }
+        .daux i:hover{
+            color: rgba(47, 76, 97, 0.966);
+        }
+        #khicoSP{
+            width: 60%; 
+            margin: 5px auto 5px;background-color: white; 
+            height: 40px; 
+            border-bottom: 1px solid wheat;
+            display: none;
+        }
+        #ghrong{
+            margin-top: 50px;
+            text-align: center;
+            display: none;
+        }
+        #ghrong div a{
+            padding: 10px;
+            border: #000 1px solid;
+            width: 400px;
+            /* background-color: rgb(179, 89, 89); */
+        }
+        #ghrong div a:hover{
+            background-color: #bbb;
+        }
+        #ghrong p{
+           color: red;
+        }
+        #mainGH{
+            /* margin: 60px; */
+            height: auto;
+        }
+        #giohang{
+            width: 85%;
+            margin-left: 500px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        .giohang-item{
+            position: absolute;
+            height:30px;
+            cursor: pointer;
+            float: left;
+            text-decoration: none;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0); 
+            border-radius: 5px;
+            border: 1px solid;
+            padding: 3px; 
+            margin: 5px 0 0 1330px;
+        }
+        #tieudeGH{
+            margin-top: 30px;
+            width: 85%;
+            height: 30px;
+            margin: auto;
+            line-height: 30px;
+            display: none;
+            font-weight: bold;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        #giohang #thongtincart{
+            border-bottom: 1px solid silver;
+            width: 1100px;
+            padding: 5px 100px 5px 100px;
+            margin-top: 10px;
+            line-height: 100px;
+        }
+        #giohang #thongtincart{
+            border-bottom: 1px solid silver;
+            line-height: 100px;
+        }
+         #thongtincart #hinh img{
+            width: 120px;
+            height: 120px;
+        }
+         #thongtincart #hinh{
+            float: left;
+            width: 10%;
+            height: 120px;
+            margin: 10px 0 0 -50px;
+        }
+         #thongtincart  #soluong{
+            float: left;
+            width: 11%;
+            margin: 10px;
+            height: 120px;
+        }
+         #thongtincart  #hanhdong{
+            float: left;
+            width: 1%;
+            margin: 10px;
+            height: 120px;
+            cursor: pointer;
+        }
+        #thongtincart  #hanhdong:hover{
+            color: red;
+        }
+         #thongtincart #gia{
+            float: left;
+            margin: 10px;
+            height: 120px;
+            width: 15%;
+            color: red;
+        }
+         #thongtincart #tongtien{          
+            float: left;  
+            margin: 15px 0 0 50px;
+            width: 20%;
+            color: red;
+            height: 120px;
+        }
+        #thongtincart #tenSP{
+            float: left;
+            width: 30%;
+            height: 120px;
+            margin: 10px;
+            text-align: center;
+        }
+        #thongtincart  #soluong #tang{
+            margin-top: 35px;
+            float: left;
+            width: 30px;
+            height: 33px;
+            border: #000 1px solid;
+            line-height: 30px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 0;
+        }
+        #thongtincart #soluong #giam{
+            float: left;
+            width: 30px;
+            margin-top: 35px;
+            border: #000 1px solid;
+            height: 33px;
+            line-height: 30px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 0;
+        }
+        #thongtincart #soluong #value{
+            float: left;
+            margin-top: 35px;
+            width: 30px;
+            height: 31px;
+            line-height: 30px;
+            border: none;
+            border-top: #000 1px solid;
+            border-bottom: #000 1px solid;
+            border-radius: 0;
+            text-align: center;
+        }
+        #tongtienallSP{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 85%;
+            height: 30px;
+            margin: auto;
+            margin-top: 10px;
+            line-height: 30px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        #thanhtoan{
+            height: 50px;
+            border-radius: 5px ;
+            background: rgba(47, 76, 97, 0.966);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            width: 350px;
+            margin: 10px auto;
+            line-height: 50px;
+            text-align: center;
+            cursor: pointer;
+            color: white;
+        }
+        #slideshow{
+            background-color:white;
+            width: 100%;
+            height: 400px;
+            position: relative;
+            margin-bottom: 10px;
+            margin-top: 90px;
+        }
+        .mySlides{
+            display: none;
+        }
+        .dot{
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 10px 3px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+        .span{
+            margin-left: 670px;
+    }
+
+    .activedot, .dot:hover{
+        background-color: #717171;
+    }
+    @keyframes topdown{
+        0% {transform: translateY(-800px)}
+        100% {transform: translateY(0)}
+    }
+
+   /* Css của login */
+   .error{
+    color: red;
+    border: 1px ridge red;
+   }
+   .modal{
+    position: fixed; 
+    z-index: 15; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+    }
+    #register{
+        width: 500px;
+        position: relative;
+        top: 100px;
+        left: 35%;
+    }
+    .modal p{
+        margin-bottom: 120px;
+        text-align: center;
+    }
+    .modal p a{
+        text-decoration: none;
+        color: Red;
+        font-weight: bold;
+        margin-bottom: 120px;
+    }
+    .modal a:hover{
+    color: rgba(47, 76, 97, 0.966);
+    }
+    #signinn{
+        width: 500px;
+        position:relative;
+        top: 100px;
+        left: 35%;
+    }
+    #row{
+        height: 40px;
+        border-bottom: 1px ridge rgba(194, 194, 194, 0.726);
+        width: 100%;
+        background-color:white;
+    }
+    .left{
+        float:left;
+        width: 25%;
+        background-color:rgba(47, 76, 97, 0.966);
+        text-align: center; 
+        line-height: 40px;
+        height: 40px;
+        color:rgb(255, 255, 255);
+        font-family: 'Montserrat', sans-serif;
+    }
+    .right{
+        float:left;
+        padding: 5px; 
+        border-left: 1px ridge black ;
+        height: 30px;
+        background-color:white;
+    }
+    input[type=text]{
+        border-radius: 2px;
+        height: 25px;
+        width: 150px;
+    }
+    input[type=password]{
+        position: relative;
+        border-radius: 2px;
+        height: 25px;
+        width: 150px;
+    }
+    textarea{
+        padding: 0px;
+        margin: 0px;
+        width: 210px;
+    }
+    .daux{
+        position:absolute; 
+        width:30px;
+        height:30px;
+        font-size:16px;
+        text-align:center;
+        top: 5px; 
+        right: 30px;
+        border-radius: 5px;
+        background-color:white;
+        color: black;
+        line-height:30px;
+    }
+    button:hover{
+        background: rgba(47, 76, 97, 0.966);
+    }
+    .daux:hover{
+        background-color: rgba(47, 76, 97, 0.966);
+    }
+
+ /* css bill */
+#bill{
+	display: none;
+}
+#bill h2{
+	text-align: center;
+}
+#bill .billcontent{
+	border:  1px solid #000;
+	padding: 20px;
+	width: 90%;
+	margin: 20px 0 0 90px;
+	border-radius: 30px;
+	display: flex;
+	flex-wrap: wrap;
+} 
+#bill .billcontent div:nth-child(1){
+	width: 40%;
+	text-align: left;
+}
+#bill .billcontent div{
+	width: 20%;
+	text-align: center;
+}
+
+/*customalert*/
+#customalert {
+    visibility: hidden;
+    min-width: 350px;
+    color:white;
+    font-size: 14pt;
+    text-align: center;
+    border-radius: 2px;
+    padding: 20px;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+}
+#customalert.show{
+    visibility: visible;
+ 	animation: fadein 0.5s, fadeout 0.5s 3s;
+}
+/* Css search */
+#khungsearch{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    display: none;
+    top: 0;
+    background-color:rgb(145, 145, 145);
+  }
+   #thanhsearch #timkiem{
+    width: 800px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EEE;
+    outline: none;
+    margin-left: 12%;
+    margin-top: 1%;
+  }
+  #thanhsearch #timkiem input{
+    height: 100%;
+    width: 95%;
+    font-size: 40pt;
+    outline: none;
+  }
+   #khungsearch button{
+    width: 120px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    margin-left: 1%;
+    margin-top: 1%;
+    background:rgba(231, 116, 49, 0.938);
+  }
+  #searchresult{
+    position: relative;
+    left: 8%;
+    width: 100%;
+  }
+  #closesearch{
+    transform: rotate(45deg);
+    position: absolute;
+    right: 20px;
+    top:  0px;
+    font-size: 60px;
+    cursor: pointer;
+    color:  black;
+  }
+  #closesearch:hover{
+    color: rgba(231, 116, 49, 0.938);
+  }
+  #thanhsearch{
+    width: 90%;
+    height: 60px;
+    margin-left: 50px;
+    font-size: 30px;
+    cursor: auto;
+    display: flex;
+  }
+  #searchnangcao{
+    padding-left: 20px;
+    width: 350px;
+    margin-left: 25%;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 30px;
+    background-color: white;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.8;
+    text-align: center;
+  }
+  #searchnangcao input{
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  #searchnangcao:hover{
+    opacity: 1;
+    color:  black;
+  }
+  #loaisanpham{
+    font-weight: bold;
+    height: 25px;
+    font-size: 15px;
+  }
+  #priceform, #priceto{
+    height: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  #loaisearchnangcao{
+    margin-left: 50px;
+  }
+  #searchnangcao button{
+    background:rgba(12, 23, 31, 0.966);
+    font-size: 22px;
+    height: 28px;
+    line-height: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-family: 'Montserrat', sans-serif;
+    width: 100px;
+  }
+  .chitiet{
+    width: 30%;
+      position: relative;
+      transition: background-size .6s ease;
+      background-image: linear-gradient(180deg,transparent 89%,#3495eb 0);
+      background-repeat: no-repeat;
+    background-size: 0 100%;
+    color: black;
+  
+  }
+  .chitiet:hover{
+    background-size: 100% 100%;
+    color: #3495eb;
+    cursor: pointer;
+  }
+  .chitietsearch{
+    width: 30%;
+      position: relative;
+      transition: background-size .6s ease;
+      background-image: linear-gradient(180deg,transparent 89%,#3495eb 0);
+      background-repeat: no-repeat;
+    background-size: 0 100%;
+    color: black;
+    left: 35%;
+  }
+  .chitietsearch:hover{
+    background-size: 100% 100%;
+    color: #3495eb;
+    cursor: pointer;
+  }
+
+/* Giới thiệu */
+.gioithieu{
+    width: 1490px;
+    height: 2000px;
+    background-color: #ffffff;
+    margin: 100px 0 0 0px;
+}
+.tittle-gioithieu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 650px;
+}
+.img-gioithieu{
+    height: 700px;
+    width: 1400px;
+    margin: 10px 0 10px 50px;
+}
+.gioithieu-content{
+    width: 1400px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 0 50px;
+}
+.gioithieu-block{
+    height: 1px;
+    width: 1490px;
+    background-color: black;
+    margin: 20px 0 0 0;
+}
+.gioithieu-content1{
+    width: 1800px;
+    display: grid;
+    grid-template-columns: 1100px 700px;
+    grid-template-rows: 800px;
+    margin: 0 -450px 0;
+}
+.gioithieu-content1-img{
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 10px 10px 30px 30px;
+}
+.gioithieu-content1 .left{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0 50px 0 50px;
+}
+.gioithieu-content1 .left{
+    padding: 15px 0 15px;
+    background-color: #ffffff;
+    margin: 10px 0 0 500px;
+}
+.gioithieu-content1 .left .text{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin: 0px 50px 30px 10px;
+}
+.gioithieu-content1 .right{
+    background-color: rgb(255, 255, 255);
+    margin: -750px 0 20px 1500px;
+}
+.gioithieu-content1 .right .img{
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+/* Liên hệ */
+.lienhe{
+    width: 1500px;
+    height: 1050px;
+    background-color: #ffffff;
+    margin: 130px 0 0 ;
+}
+.img-lienhe{
+    height: 450px;
+    width: 1400px;
+    margin: 30px 0 10px 50px;
+}
+.text-lienhe{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form_contact{
+    text-align: center;
+    }
+    #form1{
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 10px;
+    }
+    #form1 input[type=text]{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #555;
+    display: block;
+    line-height: 1.2;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+    padding: 0 20px 0 23px;
+    border: 0;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 20%);
+    }
+    #form1 input[type=text]:focus{
+    border: 0;
+    outline: none;
+    box-shadow: 0 5px 20px 0 rgba(116, 114, 114, 0.1);
+    }
+    #form1 #fcontent{
+    outline: none;
+    min-height: 150px;
+    }
+    #form1 input[type=submit]{
+    background-color:rgba(231, 116, 49, 0.938);
+    height: 42px;
+    padding: 5px 20px;
+    border-radius: 21px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border: 0;
+    }
+    #form1 input[type="submit"]:hover {
+    color: #000000;
+}
+
+.footer{
+    position: relative;
+    display: grid;
+    height: 1100px;
+    width: 100%;
+    grid-template-columns: 490px 490px 490px;
+    grid-template-rows: 300px;
+    grid-gap: 50px;
+    background-color: rgba(12, 23, 31, 0.966);
+    margin-left: 0px;
+}
+.footer .top{
+    height: 250px;
+    text-align: center;
+    margin: 50px 50px 10px 120px;
+    font-size: 30px;
+    padding: 50px 0 50px -10px;
+    background-color: rgb(255, 255, 255);
+}
+.footer .top .text6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+.footer .top .text7{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 185px;
+}
+.footer .top .img{
+    float: left;
+    margin: 30px 0 20px 20px;
+    height: 150px;
+    width: 150px;
+}
+.footer .top .button{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    background: rgba(231, 116, 49, 0.938);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px 25px 15px 25px;
+    margin-left: 12px;
+}
+.footer .top .button:hover{
+    color: rgb(0, 0, 0);  
+}
+.footer .block2{
+    height: 2px;
+    width: 1850px;
+    background-color: rgba(231, 231, 231, 0.726);
+    margin-left: 30px;
+}
+.footer .center{
+    height: 550px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 410px 410px 410px 410px;
+    grid-template-rows: 550px;
+    grid-gap: 25px;
+    margin: 10px 0;
+    background-color: rgba(12, 23, 31, 0);
+}
+.footer .center .content2{
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 550px 0 -480px;
+    background-color: rgba(12, 23, 31, 0);
+}
+.center .content2 .text8{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 30px 0 10px 110px;
+}
+.center .content2 .infor{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+    margin: 30px 0 0 -5px;
+    padding: 100px 0 100px;
+    border-radius: 3px;
+}
+.center .content2 .service{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 400px;
+    color: #7c7c7c;
+    padding: 20px 0 20px 5px;
+}
+.center .content2 .button{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    background: rgba(231, 116, 49, 0.938);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px 25px 15px 25px;
+    margin-left: 30px;
+}
+.center .content2 .button:hover{
+    color: rgb(0, 0, 0);  
+}
+.center .content2 .block3{
+    height: 2px;
+    width: 410px;
+    background-color: rgba(231, 231, 231, 0.726);
+}
+.center .content2 .gallery{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #5a5a5a;
+    text-align: left;
+    padding: 20px 0 20px 10px;
+    margin-left: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-gap: 10px 10px;
+    margin: 10px 0 20px 30px;
+}
+.image{
+    height: 100px;
+    width: 100px;
+}
+.center .content2 .contact{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: #ffffff;
+    margin: 30px 0 120px 100px;
+}
+.footer .bottom{
+    width: 1700px;
+    margin: 90px -1118px;
+    background-color: rgba(12, 23, 31, 0);
+}
+.footer .bottom .block4{
+    height: 2px;
+    width: 1850px;
+    background-color: rgba(231, 231, 231, 0.726);
+    margin: 600px 0 0 60px;
+}
+.footer .bottom .text9{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #727272;
+    margin: 10px 0 0 300px;
+}

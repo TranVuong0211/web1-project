@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch!`</title>
+    <script type="text/javascript" src="func.js"> </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body onload="checklogin2();hienthiGH();hienthighrong();hienSP();" style="margin: 0;"> 
+    <div class="header" style="position: relative;">     
+        <div class="top">
+            <a href="index.html" style="float: left;"><img src = "img/logo/logo.jpg" style="width: 150px;height: 40px;"/></a>   
+            <button type="submit"  onclick="mosearch();"; style="height:30px;text-align:center;font-size:medium;left: 460px;top:5px;position: absolute; border:none;background-color: white;">Tìm Kiếm..<i class="fas fa-search"></i></button>
+            <div id="khungsearch" >
+                <div id="thanhsearch">
+                <input type="text"  id="timkiem" placeholder="Tìm kiếm" onkeyup="search(0);">
+                <button onclick= "showsearchnangcao();">Tìm kiếm</button>
+                </div>
+                <div id="closesearch" onclick="closesearch();">+</div>
+                <div id="searchnangcao" style="display: none;" class="">
+                    <select id="loaisanpham" onchange="search(0);">
+                        <option value="MauVe">MÀU VẼ</option>
+                        <option value="ButVe">BÚT VẼ</option>
+                        <option value="GiayVe">GIẤY VẼ</option>
+                        <option value="VanPhongPham">VĂN PHÒNG PHẨM</option>
+                    </select>
+                    
+                    <div><input style="height: 30px;" type="text" id="priceform" placeholder="Giá từ"><i id="khoangcachsearch" class= "fa fa-long-arrow-right"></i><input style="height: 30px;" type="text" id="priceto" placeholder="Đến">
+                        
+                        <div id="nutloc"><button onclick="timkiemnangcao(0);" style="width: 100px;color: white">Lọc</button></div>
+                    </div>
+                </div>    					
+                    <div id="searchresult"></div>
+                    <div id="phantrangsearch" style="margin-top: 700px;"></div>
+                    <div id="phantrangsearchnangcao" style="margin-top: 700px;"></div>
+            </div>  
+                <button id="giohangs" onclick ="location.href='giohang.html'" class="giohang-item"><i class="fas fa-shopping-cart"></i>Giỏ hàng</button>
+                    <a href="admin.html" id="quanly" class="button-quanly"><i class="fas fa-user-cog"></i>Quản lý</a>
+                    <a onclick ="location.href='bill.html'" id="lichsu" class="button-lichsu">Lịch sử mua hàng</a>
+                    <a onclick="SignIn();" id="top" class="button-taikhoan"><i class="fas fa-user"></i>Tài Khoản</a>
+                    <a onclick="logout();" id="top1" class="button-logout"><i class="fas fa-sign-out-alt"></i></i>LogOut</a>
+                    <a href="#" id="top2" class="name-user"></a>                  
+        </div>
+        <div class="menutop">
+            <ul>
+                <li><a href="index.html?Phone&0">MÀU VẼ</a></li>
+                <li><a href="index.html?Laptop&0">BÚT VẼ</a></li>
+                <li><a href="index.html?SmartWatch&0">GIẤY VẼ</a></li>
+                <li><a href="index.html?Tablet&0">VĂN PHÒNG PHẨM</a></li>
+                <li><a href="index.html?accessories&0">GIỚI THIỆU</a></li>
+                <li><a href="index.html?accessories&0">LIÊN HỆ</a></li>
+            </ul>  
+        </div>
+    </div>
+       
+    <div id="mainGH">
+        <div id="ghrong">
+            
+        </div>
+        <div id ="khicoSP">
+            <div>
+                <i class="fa fa-chevron-left" style="float: left; color: red;line-height: 40px"></i>
+                <a href="index.html" style="float: left;font-size: 16px; color: red;line-height: 40px;">Tiếp tục mua sắm</a>
+            </div>
+            <h1 style="float:right ;text-align: center; margin: 0;font-weight: normal">Giỏ hàng của bạn</h1>
+        </div>
+        <div id="tieudeGH">
+            <span style="margin-left: 300px;">Sản phẩm</span>
+            <span style="margin-left: 150px;">Đơn giá</span>
+            <span style="margin-left: 130px;">Số lượng</span>
+            <span style="margin-left: 100px;">Tổng tiền</span>
+            <span style="margin-left: 130px;">Chức năng</span>
+        </div>
+        <div id="giohang" style="margin-left: 145px;">          
+            
+        </div>
+        <div id="tongtienallSP">
+            <div style="float: left;margin-left: 40px;">Tổng cộng: </div>
+            <div id="tongcong" style="color: red;float: right;margin-right: 40px;"></div>
+        </div>
+        <div id="thanhtoan" onclick="buy();">Thanh toán</div>
+    </div>   
+    
+    <div id="customalert"></div>
+    <!-- <input type="button" onclick="taoSP();"/> -->
+</body>
+</html>
